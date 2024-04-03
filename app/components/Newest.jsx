@@ -26,7 +26,7 @@ async function Newest() {
       <div className="mx-auto max-w-2xl px-4 sm:px6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="flex justify-between items-center">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-            What's New
+            Whats New
           </h2>
 
           <Link
