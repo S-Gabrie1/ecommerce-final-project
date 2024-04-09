@@ -25,7 +25,7 @@ async function Hero() {
             Come and shop with us.
           </p>
         </div>
-        <div className="mg-12 flex w-full md:mb-16 lg:w-2/3">
+        <div className="mg-12 flex w-full md:mb-16 lg:w-2/3 mb-10">
           <div className="relative left-12 top-12 z-10 -ml-12 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:left-16 md:top-16 lg:ml-0 ">
             <Image
               src={urlFor(data.image1).url()}
@@ -48,7 +48,7 @@ async function Hero() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
+      <div className="flex flex-col items-start justify-between gap-8 mb:flex-row mb-4">
         <div className="flex h-12 w-64 divide-x overflow-hidden rounded-lg border ">
         <Link href={"/Men"} className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-200">
             Men

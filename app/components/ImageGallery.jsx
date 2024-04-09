@@ -10,8 +10,8 @@ function ImageGallery({ images }) {
   }
 
   return (
-    <div className="grid mb-12 gap-4 lg:grid-cols-4">
-      <div className="order-last flex gap-4 lg:order-none lg:flex-col ">
+    <div className="grid mb-10 gap-4 lg:grid-cols-3">
+      <div className="order-last md:flex gap-2 lg:order-none lg:flex-col justify-start hidden">
         {images.map((image, index) => (
           <div key={index} className="overflow-hidden rounded-lg bg-gray-100">
             <Image
@@ -25,13 +25,13 @@ function ImageGallery({ images }) {
           </div>
         ))}
       </div>
-      <div className=" relative w-80 overflow-hidden rounded-lg bg-gray-100 lg:col-span-1">
+      <div className=" relative md:w-90 mt-2 overflow-hidden rounded-lg bg-gray-100 lg:col-span-2">
         <Image
           src={urlFor(bigImage).url()}
           alt="big photo"
           width={500}
           height={500}
-          className="h-full w-full object-cover object-center"
+          className="md:h-full md:w-full object-cover object-center"
         />
       </div>
     </div>
