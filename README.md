@@ -20,7 +20,7 @@ npm run dev
 localhost: 3333
 ```
 
-## Länkar:
+## Technologies used:
 
 [React](https://react.dev/) <br>
 [Sanity](https://www.sanity.io/) <br>
