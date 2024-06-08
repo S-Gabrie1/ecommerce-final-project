@@ -2,27 +2,23 @@ This is a [Next.js](https://nextjs.org/) E-commerce project bootstrapped with [`
 
 
 
-## Getting Started
+## Snabbinstallation:
 
-
-
-```bash
-First, run the frontend:
-
+Frontend
+```js
+cd ecommerce-final-project
+npm install
 npm run dev
+localhost:3000
+```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Backend
+```js
+cd school-ecommerce
+npm run dev
+localhost: 3333
+```
 
-Second, run the CMS backend:
-cd /school-ecommerce
-
-npm run dev 
-
-Open [http://localhost:3333](http://localhost:3333) with your browser to see the result.
-
-
-
-## Learn More
 
 
 ## Deploy on Vercel
