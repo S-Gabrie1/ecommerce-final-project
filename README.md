@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) E-commerce project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Overview
-This project presents an innovative e-commerce website with an integrated admin page for content management, utilizing a headless content management system (CMS). The primary goal is to create a user-friendly platform that small to mid-sized companies can benefit from, enhancing their online presence and increasing revenue.
+This project presents an innovative e-commerce website with an integrated admin page for content management, utilizing a headless CMS. The primary goal is to create a user-friendly platform that small to mid-sized companies can benefit from, enhancing their online presence and increasing revenue.
 
 ## Quick install:
 
