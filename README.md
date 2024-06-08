@@ -19,6 +19,14 @@ npm run dev
 localhost: 3333
 ```
 
+## Länkar:
+
+[React](https://react.dev/) <br>
+[Sanity](https://www.sanity.io/) <br>
+[Stripe](https://stripe.com/en-se) <br>
+[RadixUi](https://www.radix-ui.com/) <br>
+[Trello](https://www.trello.com) <br>
+
 
 
 ## Deploy on Vercel
